@@ -1,0 +1,373 @@
+[14:56:20] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[14:56:21] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.2318 for Minecraft 1.8.9 loading
+[14:56:21] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_261, running on Mac OS X:x86_64:10.15.7, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre
+[14:56:21] [main/DEBUG] [FML/]: Java classpath at launch is /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar:/Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/build/classes/main:/Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/build/resources/main:/Users/davidwang/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar:/Users/davidwang/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar:/Users/davidwang/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar:/Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar:/Users/davidwang/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar
+[14:56:21] [main/DEBUG] [FML/]: Java library path at launch is /Users/davidwang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[14:56:21] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[14:56:21] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[14:56:21] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[14:56:21] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[14:56:21] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[14:56:21] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[14:56:21] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[14:56:21] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/run/.
+[14:56:21] [main/DEBUG] [FML/]: Discovering coremods
+[14:56:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[14:56:21] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[14:56:21] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[14:56:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:56:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:56:21] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:56:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:56:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[14:56:21] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:56:21] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[14:56:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[14:56:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[14:56:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[14:56:21] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[14:56:21] [main/DEBUG] [FML/]: Injection complete
+[14:56:21] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[14:56:21] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[14:56:21] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[14:56:21] [main/DEBUG] [FML/]: Loading deobfuscation resource /Users/davidwang/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_stable/20/srgs/srg-mcp.srg with 27884 records
+[14:56:22] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[14:56:22] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[14:56:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[14:56:22] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[14:56:22] [main/DEBUG] [FML/]: Injection complete
+[14:56:22] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[14:56:22] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[14:56:22] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[14:56:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[14:56:22] [main/DEBUG] [FML/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[14:56:22] [main/DEBUG] [FML/]: Validating minecraft
+[14:56:22] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[14:56:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[14:56:22] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:56:22] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[14:56:22] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[14:56:32] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.2318 Initialized
+[14:56:32] [Server thread/INFO] [FML/]: Replaced 229 ore recipies
+[14:56:33] [Server thread/DEBUG] [FML/]: No config directory found, creating one: /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/run/config
+[14:56:33] [Server thread/INFO] [FML/]: Config directory created successfully
+[14:56:33] [Server thread/DEBUG] [FML/]: File /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/run/config/injectedDependencies.json not found. No dependencies injected
+[14:56:33] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[14:56:33] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/charsets.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/deploy.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/cldrdata.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/dnsns.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jaccess.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/jfxrt.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/localedata.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/nashorn.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunec.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/ext/zipfs.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/javaws.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jce.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfr.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jfxswt.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/jsse.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/management-agent.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/plugin.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/resources.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/jre/lib/rt.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/ant-javafx.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/dt.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/javafx-mx.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/jconsole.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/packager.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/sa-jdi.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/build/classes/main, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/build/resources/main, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/stable/20/forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/netty/1.6/4b75825a06139752bd800d9e29c5fd55b8b1b1e4/netty-1.6.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/3.4.0/803ff252fedbd395baffd43b37341dc4a150a554/jna-3.4.0.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.6/306816fb57cf94f108a43c95731b08934dcae15c/jopt-simple-4.6.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.0.23.Final/294104aaf1781d6a56a07d561e792c5d0c95f45/netty-all-4.0.23.Final.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.21/aefba0d5b53fbcb70860bc8046ab95d5854c07a5/authlib-1.5.21.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.7.59/9c6c59b742d8e038a15f64c1aa273a893a658424/realms-1.7.59.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.0-beta9/678861ba1b2e1fccb594bb0ca03114bb05da9695/log4j-core-2.0-beta9.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/jline/jline/2.13/2d9530d0a25daffaffda7c35037b046b627bb171/jline-2.13.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.2-nightly-20140822/7707204c9ffa5d91662de95f0a224e2f721b22af/lwjgl-2.9.2-nightly-20140822.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.2-nightly-20140822/f0e612c840a7639c1f77f68d72a28dae2f0c8490/lwjgl_util-2.9.2-nightly-20140822.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch/6.5/320a2dfd18513a5f41b4e75729df684488cbd925/twitch-6.5.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.fusesource.jansi/jansi/1.11/655c643309c2f45a56a747fda70e3fadf57e9f11/jansi-1.11.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/206c4ccaecdbcfd2a1631150c69a97bbc9c20c11/twitch-platform-6.5-natives-windows-32.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/9fdd0fd5aed0817063dcf95b69349a171f447ebd/twitch-platform-6.5-natives-windows-64.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-platform/6.5/5f9d1ee26257b3a33f0ca06fed335ef462af659f/twitch-platform-6.5-natives-osx.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/18215140f010c05b9f86ef6f0f8871954d2ccebf/twitch-external-platform-4.5-natives-windows-32.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/tv.twitch/twitch-external-platform/4.5/c3cde57891b935d41b6680a9c5e1502eeab76d86/twitch-external-platform-4.5-natives-windows-64.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Users/davidwang/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar, examining for mod candidates
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/78b2a55ce4dc29c6b3ec4df8ca165eba05f9b341/lwjgl-platform-2.9.2-nightly-20140822-natives-windows.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/d898a33b5d0a6ef3fed3a4ead506566dce6720a5/lwjgl-platform-2.9.2-nightly-20140822-natives-linux.jar
+[14:56:33] [Server thread/TRACE] [FML/]: Skipping known library file /Users/davidwang/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.2-nightly-20140822/79f5ce2fea02e77fe47a3c745219167a542121d7/lwjgl-platform-2.9.2-nightly-20140822-natives-osx.jar
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related directory at /Users/davidwang/.gradle/caches/minecraft/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/start, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Found a minecraft related file at /Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar, examining for mod candidates
+[14:56:33] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[14:56:33] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[14:56:33] [Server thread/INFO] [FML/]: Searching /Users/davidwang/Desktop/Side Projects/My Mods/Revamped TimeChanger/run/mods for mods
+[14:56:33] [Server thread/DEBUG] [FML/]: Examining file charsets.jar for potential mods
+[14:56:33] [Server thread/DEBUG] [FML/]: The mod container charsets.jar appears to be missing an mcmod.info file
+[14:56:33] [Server thread/DEBUG] [FML/]: Examining file deploy.jar for potential mods
+[14:56:33] [Server thread/DEBUG] [FML/]: The mod container deploy.jar appears to be missing an mcmod.info file
+[14:56:33] [Server thread/DEBUG] [FML/]: Examining file cldrdata.jar for potential mods
+[14:56:33] [Server thread/DEBUG] [FML/]: The mod container cldrdata.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file dnsns.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container dnsns.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jaccess.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jaccess.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jfxrt.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jfxrt.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file localedata.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container localedata.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file nashorn.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container nashorn.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file sunec.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container sunec.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file sunjce_provider.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container sunjce_provider.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file sunpkcs11.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container sunpkcs11.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file zipfs.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container zipfs.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file javaws.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container javaws.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jce.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jce.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jfr.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jfr.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jfxswt.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jfxswt.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jsse.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jsse.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file management-agent.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container management-agent.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file plugin.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container plugin.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file resources.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container resources.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file ant-javafx.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container ant-javafx.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file dt.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container dt.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file javafx-mx.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container javafx-mx.jar appears to be missing an mcmod.info file
+[14:56:34] [Server thread/DEBUG] [FML/]: Examining file jconsole.jar for potential mods
+[14:56:34] [Server thread/DEBUG] [FML/]: The mod container jconsole.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file packager.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container packager.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file sa-jdi.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container sa-jdi.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file tools.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container tools.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining directory main for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory main
+[14:56:35] [Server thread/TRACE] [FML/]: Recursing into package pw
+[14:56:35] [Server thread/TRACE] [FML/]: Recursing into package pw.cinque
+[14:56:35] [Server thread/TRACE] [FML/]: Recursing into package pw.cinque.timechanger
+[14:56:35] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (TimeChanger) - loading
+[14:56:35] [Server thread/TRACE] [timechanger/]: Parsed dependency info : [] [] []
+[14:56:35] [Server thread/TRACE] [FML/]: Recursing into package pw.cinque.timechanger.commands
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining directory main for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: Found an mcmod.info file in directory main
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file compileDummy.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container compileDummy.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file providedDummy.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container providedDummy.jar appears to be missing an mcmod.info file
+[14:56:35] [Server thread/DEBUG] [FML/]: Examining file forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar for potential mods
+[14:56:35] [Server thread/DEBUG] [FML/]: The mod container forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file oshi-core-1.1.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container oshi-core-1.1.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file jna-3.4.0.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container jna-3.4.0.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file platform-3.4.0.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container platform-3.4.0.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file jline-2.13.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container jline-2.13.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file jansi-1.11.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container jansi-1.11.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file jsr305-2.0.1.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container jsr305-2.0.1.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining directory start for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[14:56:36] [Server thread/TRACE] [FML/]: Recursing into package net
+[14:56:36] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[14:56:36] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[14:56:36] [Server thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[14:56:36] [Server thread/DEBUG] [FML/]: Examining file idea_rt.jar for potential mods
+[14:56:36] [Server thread/DEBUG] [FML/]: The mod container idea_rt.jar appears to be missing an mcmod.info file
+[14:56:36] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[14:56:36] [Server thread/TRACE] [FML/]: Received a system property request ''
+[14:56:36] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[14:56:36] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[14:56:36] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
+[14:56:36] [Server thread/DEBUG] [FML/]: Found translations in forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar [en_US, en_US]
+[14:56:36] [Server thread/DEBUG] [timechanger/]: Enabling mod timechanger
+[14:56:36] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[14:56:36] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[14:56:36] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[14:56:36] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[14:56:36] [Server thread/DEBUG] [FML/]: Mod sorting data
+[14:56:36] [Server thread/DEBUG] [FML/]: 	timechanger(TimeChanger:1.0): main ()
+[14:56:36] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[14:56:36] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[14:56:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.002s
+[14:56:36] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[14:56:36] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[14:56:36] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[14:56:36] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[14:56:36] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, timechanger] at CLIENT
+[14:56:36] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, timechanger] at SERVER
+[14:56:36] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[14:56:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.633s
+[14:56:36] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[14:56:36] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[14:56:36] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[14:56:36] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.2318)
+[14:56:36] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[14:56:36] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.008s
+[14:56:36] [Server thread/TRACE] [timechanger/timechanger]: Sending event FMLConstructionEvent to mod timechanger
+[14:56:37] [Server thread/TRACE] [timechanger/timechanger]: Sent event FMLConstructionEvent to mod timechanger
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Step: Construction - TimeChanger took 0.013s
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.656s
+[14:56:37] [Server thread/DEBUG] [FML/]: Mod signature data
+[14:56:37] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[14:56:37] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[14:56:37] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[14:56:37] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	8.0.99.99)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
+[14:56:37] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	11.15.1.2318)	forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar
+[14:56:37] [Server thread/DEBUG] [FML/]: 		timechanger	(TimeChanger	1.0)	main
+[14:56:37] [Server thread/ERROR] [FML/]: Fatal errors were detected during the transition from CONSTRUCTING to PREINITIALIZATION. Loading cannot continue
+[14:56:37] [Server thread/ERROR] [FML/]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UC	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UC	Forge{11.15.1.2318} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar) 
+	UE	timechanger{1.0} [TimeChanger] (main) 
+[14:56:37] [Server thread/ERROR] [FML/]: The following problems were captured during this phase
+[14:56:37] [Server thread/ERROR] [FML/]: Caught exception from timechanger
+java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at TimeChanger.<init>(TimeChanger.java:28) ~[main/:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_261]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_261]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_261]
+	at net.minecraftforge.fml.common.ILanguageAdapter$JavaAdapter.getNewInstance(ILanguageAdapter.java:174) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:534) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:211) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:189) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:118) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:512) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:320) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.startServer(DedicatedServer.java:115) [DedicatedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:508) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_261]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_261]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_261]
+	... 35 more
+Caused by: net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer@62e70ea3 from coremod FMLCorePlugin
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:234) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_261]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_261]
+	... 35 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid side SERVER
+	at net.minecraftforge.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:49) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerWrapper.transform(ASMTransformerWrapper.java:230) ~[forgeSrc-1.8.9-11.15.1.2318-1.8.9.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_261]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_261]
+	... 35 more
+[14:56:37] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[14:56:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[14:56:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[14:56:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[14:56:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[14:56:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[14:56:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[14:56:37] [Server thread/TRACE] [timechanger/timechanger]: Sending event FMLServerStoppedEvent to mod timechanger
+[14:56:37] [Server thread/TRACE] [timechanger/timechanger]: Sent event FMLServerStoppedEvent to mod timechanger
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - TimeChanger took 0.000s
+[14:56:37] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.002s
+[14:56:37] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state SERVER_STOPPED. Errors may have been discarded.
+[14:56:37] [Server thread/INFO] [FML/]: The state engine was in incorrect state ERRORED and forced into state AVAILABLE. Errors may have been discarded.

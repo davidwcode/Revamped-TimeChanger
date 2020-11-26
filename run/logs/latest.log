@@ -1,0 +1,48 @@
+[23:09:22] [Client thread/INFO]: Setting user: Player302
+[23:09:25] [Client thread/INFO]: LWJGL Version: 2.9.2
+[23:09:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TimeChanger
+[23:09:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:09:31] [Thread-7/INFO]: Initializing LWJGL OpenAL
+[23:09:31] [Thread-7/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:09:31] [Thread-7/INFO]: OpenAL initialized.
+[23:09:31] [Sound Library Loader/INFO]: Sound engine started
+[23:09:36] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:09:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TimeChanger
+[23:09:38] [Client thread/INFO]: SoundSystem shutting down...
+[23:09:38] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:09:38] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:09:38] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[23:09:38] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:09:38] [Thread-9/INFO]: OpenAL initialized.
+[23:09:38] [Sound Library Loader/INFO]: Sound engine started
+[23:09:43] [Client thread/INFO]: Created: 512x512 textures-atlas
+[23:10:20] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[23:10:20] [Server thread/INFO]: Generating keypair
+[23:10:20] [Server thread/INFO]: Preparing start region for level 0
+[23:10:21] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:10:23] [Server thread/INFO]: Player302[local:E:763f0e7d] logged in with entity id 89 at (128.29463295482813, 76.12715714260305, 20.097731102086954)
+[23:10:23] [Server thread/INFO]: Player302 joined the game
+[23:10:26] [Client thread/INFO]: [CHAT] Time set to day.
+[23:10:33] [Client thread/INFO]: [CHAT] Time set to night.
+[23:10:37] [Client thread/INFO]: [CHAT] Time set to sunset.
+[23:10:43] [Client thread/INFO]: [CHAT] Now using vanilla time.
+[23:10:53] [Client thread/INFO]: [CHAT] Time set to fast (1.0).
+[23:11:01] [Client thread/INFO]: [CHAT] Time set to fast (0.0).
+[23:11:21] [Client thread/INFO]: [CHAT] Time set to fast (2.0).
+[23:11:27] [Server thread/INFO]: Saving and pausing game...
+[23:11:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:11:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:11:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:11:40] [Server thread/INFO]: Saving and pausing game...
+[23:11:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:11:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:11:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:11:41] [Server thread/INFO]: Stopping server
+[23:11:41] [Server thread/INFO]: Saving players
+[23:11:41] [Server thread/INFO]: Saving worlds
+[23:11:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:11:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:11:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:11:42] [Client thread/INFO]: Stopping!
+[23:11:42] [Client thread/INFO]: SoundSystem shutting down...
+[23:11:43] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
