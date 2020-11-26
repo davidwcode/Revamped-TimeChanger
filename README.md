@@ -1,7 +1,7 @@
 # Revamped-TimeChanger
 An improved version of 2PI's TimeChanger mod for 1.8.9
 
-# Features
+# Maintained Features
 Old features from original mod:
 
 # Commands:
@@ -11,7 +11,7 @@ Old features from original mod:
 "/fasttime <multiplier>" time passes quickly based on the multiplier.
 "/resettime" resets the time to vanilla
 
-# New features:
+# New Features:
 
 # Command:
 "/timechange <args>" ("/tc" as alias)
