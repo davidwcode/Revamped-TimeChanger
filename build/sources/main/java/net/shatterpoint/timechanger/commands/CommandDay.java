@@ -29,6 +29,7 @@ public class CommandDay extends CommandBase {
         this.mod.setTime(6000);
         TimeChanger.isVanilla = false;
         sender.addChatMessage((new ChatComponentText("Time set to day.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+        this.mod.saveSettings();
     }
 
     public int getRequiredPermissionLevel() {

@@ -19,7 +19,7 @@ public class GuiSlider extends GuiButtonExt {
 
 
     public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr) {
-        this(id, xPos, yPos, width, height, prefix, suf, minVal, maxVal, currentVal, showDec, drawStr, (GuiSlider_ISlider)null);
+        this(id, xPos, yPos, width, height, prefix, suf, minVal, maxVal, currentVal, showDec, drawStr, null);
     }
 
     public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr, GuiSlider_ISlider par) {
@@ -48,10 +48,6 @@ public class GuiSlider extends GuiButtonExt {
             this.displayString = "";
         }
 
-    }
-
-    public GuiSlider(int id, int xPos, int yPos, String displayStr, double minVal, double maxVal, double currentVal, GuiSlider_ISlider par) {
-        this(id, xPos, yPos, 150, 20, displayStr, "", minVal, maxVal, currentVal, true, true, par);
     }
 
     public int getHoverState(boolean par1) {
@@ -112,14 +108,6 @@ public class GuiSlider extends GuiButtonExt {
 
     public int getValueInt() {
         return (int)Math.round(this.sliderValue * (this.maxValue - this.minValue) + this.minValue);
-    }
-
-    public double getValue() {
-        return this.sliderValue * (this.maxValue - this.minValue) + this.minValue;
-    }
-
-    public void setValue(double d) {
-        this.sliderValue = (d - this.minValue) / (this.maxValue - this.minValue);
     }
 
     public String getStringTime(int time) {

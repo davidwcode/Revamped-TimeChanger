@@ -1,6 +1,5 @@
 package net.shatterpoint.timechanger.gui;
 
-import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.shatterpoint.timechanger.TimeChanger;
 
@@ -23,7 +22,9 @@ public class GuiTimeChanger extends GuiScreen {
         this.mod.setTime(((GuiSlider)this.buttonList.get(0)).getValueInt());
     }
 
-
+    public void onGuiClosed() {
+        this.mod.saveSettings();
+    }
 
 
 }

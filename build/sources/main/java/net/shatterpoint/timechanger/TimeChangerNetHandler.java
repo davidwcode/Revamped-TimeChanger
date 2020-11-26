@@ -211,23 +211,6 @@ public class TimeChangerNetHandler extends NetHandlerPlayClient {
     }
 
     public void handleTimeUpdate(S03PacketTimeUpdate packet) {
-//        switch(Handler.$SwitchMap$net$shatterpoint$timechanger$TimeType[TimeChanger.TIME_TYPE.ordinal()]) {
-//            case 1:
-//                S03PacketTimeUpdate s = new S03PacketTimeUpdate(packet.getWorldTime(), -6000L, false);
-//                this.parent.handleTimeUpdate(new S03PacketTimeUpdate(packet.getWorldTime(), -6000L, false));
-//                System.out.println(s.getWorldTime());
-//            case 2:
-//                s = new S03PacketTimeUpdate(packet.getWorldTime(), -6000L, false);
-//                this.parent.handleTimeUpdate(new S03PacketTimeUpdate(packet.getWorldTime(), -22880L, false));
-//                System.out.println(s.getWorldTime());
-//            case 3:
-//                this.parent.handleTimeUpdate(new S03PacketTimeUpdate(packet.getWorldTime(), -18000L, false));
-//            case 4:
-//                this.parent.handleTimeUpdate(packet);
-//            case 5:
-//                this.parent.handleTimeUpdate(new S03PacketTimeUpdate(packet.getWorldTime(), TimeChanger.time, false));
-//            default:
-//        }
         if (!TimeChanger.fastTime && !TimeChanger.isVanilla) {
             this.parent.handleTimeUpdate(new S03PacketTimeUpdate(packet.getWorldTime(), TimeChanger.getTime(), false));
         } else if (TimeChanger.isVanilla) {

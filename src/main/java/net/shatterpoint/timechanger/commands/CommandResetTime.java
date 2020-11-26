@@ -29,6 +29,7 @@ public class CommandResetTime extends CommandBase {
         this.mod.setTime(-1);;
         TimeChanger.isVanilla = true;
         sender.addChatMessage((new ChatComponentText("Now using vanilla time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+        this.mod.saveSettings();
     }
 
     public int getRequiredPermissionLevel() {

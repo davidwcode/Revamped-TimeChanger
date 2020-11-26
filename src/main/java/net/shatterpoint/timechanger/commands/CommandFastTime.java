@@ -11,6 +11,11 @@ import net.shatterpoint.timechanger.TimeChanger;
 
 public class CommandFastTime extends CommandBase {
     private Minecraft mc = Minecraft.getMinecraft();
+    TimeChanger mod;
+
+    public CommandFastTime(TimeChanger mod) {
+        this.mod = mod;
+    }
 
     public String getCommandName() {
         return "fasttime";
@@ -32,6 +37,7 @@ public class CommandFastTime extends CommandBase {
                 TimeChanger.isVanilla = false;
                 TimeChanger.fastTimeMultiplier = multiplier;
                 sender.addChatMessage((new ChatComponentText("Time set to fast (" + multiplier + ").")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                this.mod.saveSettings();
             }
         }
     }

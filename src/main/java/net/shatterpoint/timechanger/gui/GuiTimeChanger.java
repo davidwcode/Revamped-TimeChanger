@@ -22,7 +22,9 @@ public class GuiTimeChanger extends GuiScreen {
         this.mod.setTime(((GuiSlider)this.buttonList.get(0)).getValueInt());
     }
 
-
+    public void onGuiClosed() {
+        this.mod.saveSettings();
+    }
 
 
 }

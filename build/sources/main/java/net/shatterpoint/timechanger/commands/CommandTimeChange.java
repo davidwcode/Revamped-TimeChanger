@@ -43,21 +43,25 @@ public class CommandTimeChange extends CommandBase {
                 TimeChanger.fastTime = false;
                 TimeChanger.isVanilla = false;
                 sender.addChatMessage((new ChatComponentText("Time set to day.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                this.mod.saveSettings();
             } else if (args[0].toLowerCase().equals("sunset")) {
                 this.mod.setTime(13000);
                 TimeChanger.fastTime = false;
                 TimeChanger.isVanilla = false;
                 sender.addChatMessage((new ChatComponentText("Time set to sunset.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                this.mod.saveSettings();
             } else if (args[0].toLowerCase().equals("night")) {
                 this.mod.setTime(18000);
                 TimeChanger.fastTime = false;
                 TimeChanger.isVanilla = false;
                 sender.addChatMessage((new ChatComponentText("Time set to night.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                this.mod.saveSettings();
             } else if (args[0].toLowerCase().equals("vanilla")) {
                 this.mod.setTime(-1);
                 TimeChanger.fastTime = false;
                 TimeChanger.isVanilla = true;
                 sender.addChatMessage((new ChatComponentText("Now using vanilla time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                this.mod.saveSettings();
             } else {
                 try {
                     if (Integer.parseInt(args[0]) >= 0 && Integer.parseInt(args[0]) <= 24000) {
@@ -65,6 +69,7 @@ public class CommandTimeChange extends CommandBase {
                         TimeChanger.fastTime = false;
                         TimeChanger.isVanilla = false;
                         sender.addChatMessage((new ChatComponentText("Time set to " + args[0] + ".")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                        this.mod.saveSettings();
                     } else {
                         sender.addChatMessage((new ChatComponentText("Time must be between 0 - 24000")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.RED)));
                     }
@@ -88,6 +93,6 @@ public class CommandTimeChange extends CommandBase {
     @SubscribeEvent
     public void onTick(TickEvent.ClientTickEvent event) {
         MinecraftForge.EVENT_BUS.unregister(this);
-        Minecraft.getMinecraft().displayGuiScreen(new GuiTimeChanger(this.mod));
+        this.mc.displayGuiScreen(new GuiTimeChanger(this.mod));
     }
 }
