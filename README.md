@@ -23,7 +23,7 @@ Old features from original mod:
     - sets the time to the provided value
     
   -no args:
-      - opens GUI
+    - opens GUI
 
 # GUI
 Opened with previously mentioned command or custom hotkey (set to "p" by default")
