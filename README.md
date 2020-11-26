@@ -11,7 +11,7 @@ Old features from original mod:
 
 "/sunset" sets the time to 13000
 
-"/fasttime <multiplier>" time passes quickly based on the multiplier.
+"/fasttime [multiplier]" time passes quickly based on the multiplier.
   
 "/resettime" resets the time to vanilla
 
