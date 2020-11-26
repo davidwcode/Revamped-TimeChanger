@@ -6,9 +6,13 @@ Old features from original mod:
 
 # Commands:
 "/day" sets the time to 6000
+
 "/night" sets the time to 18000
+
 "/sunset" sets the time to 13000
+
 "/fasttime <multiplier>" time passes quickly based on the multiplier.
+  
 "/resettime" resets the time to vanilla
 
 # New Features:
@@ -22,6 +26,7 @@ Old features from original mod:
 
 # GUI
 Opened with previously mentioned command or custom hotkey (set to "p" by default")
+
 GUI contains slider
   - sets time based on slider value
 
