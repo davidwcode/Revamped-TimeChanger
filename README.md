@@ -18,8 +18,8 @@ Old features from original mod:
 # New Features:
 
 # Command:
-"/timechange <args>" ("/tc" as alias)
-  - possible args: day, night, sunset, <integer between 0-24000>
+"/timechange [args]" ("/tc" as alias)
+  - possible args: day, night, sunset, [integer between 0-24000]
     - sets the time to the provided value
   -no args:
     - opens GUI
