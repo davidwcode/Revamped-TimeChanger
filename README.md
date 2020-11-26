@@ -22,8 +22,7 @@ Old features from original mod:
   - possible args: day, night, sunset, [integer between 0-24000]
     - sets the time to the provided value
     
-  -no args:
-    - opens GUI
+  - no args: opens GUI
 
 # GUI
 Opened with previously mentioned command or custom hotkey (set to "p" by default")
