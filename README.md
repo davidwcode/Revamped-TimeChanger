@@ -25,7 +25,7 @@ Old features from original mod:
   - no args: opens GUI
 
 # GUI
-Opened with previously mentioned command or custom hotkey (set to "p" by default")
+Opened with previously mentioned command or custom hotkey (also closes GUI) (set to "p" by default")
 
 GUI contains slider
   - sets time based on slider value
