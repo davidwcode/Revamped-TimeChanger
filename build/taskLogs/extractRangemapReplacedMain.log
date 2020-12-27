@@ -1,13 +1,3 @@
 Symbol range map extraction starting
-Processing 11 files
+Processing 12 files
 processing net/shatterpoint/timechanger/TimeChanger.java
-processing net/shatterpoint/timechanger/TimeChangerNetHandler.java
-processing net/shatterpoint/timechanger/commands/CommandDay.java
-processing net/shatterpoint/timechanger/commands/CommandFastTime.java
-processing net/shatterpoint/timechanger/commands/CommandNight.java
-processing net/shatterpoint/timechanger/commands/CommandResetTime.java
-processing net/shatterpoint/timechanger/commands/CommandSunset.java
-processing net/shatterpoint/timechanger/commands/CommandTimeChange.java
-processing net/shatterpoint/timechanger/gui/GuiSlider.java
-processing net/shatterpoint/timechanger/gui/GuiSlider_ISlider.java
-processing net/shatterpoint/timechanger/gui/GuiTimeChanger.java

@@ -1,0 +1,2 @@
+FD: net/shatterpoint/timechanger/mixin/MixinWorldInfo/worldTime net/shatterpoint/timechanger/mixin/MixinWorldInfo/i
+MD: net/shatterpoint/timechanger/mixin/MixinWorldInfo/getWorldTime ()J net/shatterpoint/timechanger/mixin/MixinWorldInfo/g ()J

@@ -1,14 +1,14 @@
 [
 {
-  "modid": "timechanger",
-  "name": "Revamped TimeChanger",
-  "description": "An improved version of 2PI's TimeChanger mod.",
-  "version": "2.1",
-  "mcversion": "1.8.9",
+  "modid": "${mod_id}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Fyu", "2PI", "Shatterpoint"],
-  "credits": "Revamped by Shatterpoint",
+  "authorList": ["Shatterpoint"],
+  "credits": "Original mod by 2PI ",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -16,13 +16,14 @@ public class GuiSlider extends GuiButtonExt {
     public GuiSlider_ISlider parent;
     public String suffix;
     public boolean drawString;
+    private TimeChanger mod;
 
 
-    public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr) {
-        this(id, xPos, yPos, width, height, prefix, suf, minVal, maxVal, currentVal, showDec, drawStr, null);
+    public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr, TimeChanger mod) {
+        this(id, xPos, yPos, width, height, prefix, suf, minVal, maxVal, currentVal, showDec, drawStr, mod, null);
     }
 
-    public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr, GuiSlider_ISlider par) {
+    public GuiSlider(int id, int xPos, int yPos, int width, int height, String prefix, String suf, double minVal, double maxVal, double currentVal, boolean showDec, boolean drawStr, TimeChanger mod, GuiSlider_ISlider par) {
         super(id, xPos, yPos, width, height, prefix);
         this.sliderValue = 1.0D;
         this.dispString = "";
@@ -41,6 +42,7 @@ public class GuiSlider extends GuiButtonExt {
         this.parent = par;
         this.suffix = suf;
         this.showDecimal = showDec;
+        this.mod = mod;
         String val = getStringTime((int)Math.round(this.sliderValue * (this.maxValue - this.minValue) + this.minValue));
         this.displayString = this.dispString + val + this.suffix;
         this.drawString = drawStr;
@@ -58,7 +60,6 @@ public class GuiSlider extends GuiButtonExt {
         if (this.visible) {
             if (this.dragging) {
                 this.sliderValue = (double)((float)(par2 - (this.xPosition + 4)) / (float)(this.width - 8));
-                TimeChanger.smoothUpdate = true;
                 this.updateSlider();
             }
 
@@ -72,7 +73,6 @@ public class GuiSlider extends GuiButtonExt {
     public boolean mousePressed(Minecraft par1Minecraft, int par2, int par3) {
         if (super.mousePressed(par1Minecraft, par2, par3)) {
             this.sliderValue = (double)((float)(par2 - (this.xPosition + 4)) / (float)(this.width - 8));
-            TimeChanger.smoothUpdate = true;
             this.updateSlider();
             this.dragging = true;
             return true;
@@ -89,8 +89,8 @@ public class GuiSlider extends GuiButtonExt {
         if (this.sliderValue > 1.0D) {
             this.sliderValue = 1.0D;
         }
-
-        String val = getStringTime((int)Math.round(this.sliderValue * (this.maxValue - this.minValue) + this.minValue));
+        this.mod.setTime(getValueInt());
+        String val = getStringTime(getValueInt());
         if (this.drawString) {
             this.displayString = this.dispString + val + this.suffix;
         }
@@ -103,7 +103,6 @@ public class GuiSlider extends GuiButtonExt {
 
     public void mouseReleased(int par1, int par2) {
         this.dragging = false;
-        TimeChanger.smoothUpdate = false;
     }
 
     public int getValueInt() {

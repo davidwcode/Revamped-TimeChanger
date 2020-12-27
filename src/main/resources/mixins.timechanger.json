@@ -1,0 +1,9 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "net.shatterpoint.timechanger.mixin",
+  "mixins": [
+    "MixinWorldInfo"
+  ],
+  "client": [],
+  "server": []
+}

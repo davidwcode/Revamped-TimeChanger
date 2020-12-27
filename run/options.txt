@@ -13,10 +13,10 @@ fboEnable:true
 difficulty:2
 fancyGraphics:true
 ao:2
-renderClouds:false
+renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:mc.hypixel.net
+lastServer:
 lang:en_US
 chatVisibility:0
 chatColors:true
@@ -38,7 +38,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-showInventoryAchievementHint:true
+showInventoryAchievementHint:false
 mipmapLevels:4
 streamBytesPerPixel:0.5
 streamMicVolume:1.0

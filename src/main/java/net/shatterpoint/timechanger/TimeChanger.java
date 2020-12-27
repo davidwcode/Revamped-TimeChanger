@@ -1,9 +1,7 @@
 package net.shatterpoint.timechanger;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraft.client.settings.KeyBinding;
-import net.minecraft.network.INetHandler;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.config.Configuration;
@@ -18,9 +16,6 @@ import net.minecraftforge.fml.common.gameevent.InputEvent.MouseInputEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
 import net.shatterpoint.timechanger.commands.*;
 import net.shatterpoint.timechanger.gui.GuiTimeChanger;
-import org.apache.commons.lang3.mutable.MutableBoolean;
-import org.apache.commons.lang3.mutable.MutableFloat;
-import org.apache.commons.lang3.mutable.MutableInt;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 
@@ -36,11 +31,10 @@ public class TimeChanger {
     public static boolean fastTime = false;
     public static double fastTimeMultiplier = 1.0D;
     private static int time = 0;
-    public static boolean smoothUpdate = false;
     public static boolean isVanilla = true;
     private File saveFile;
     private Minecraft mc = Minecraft.getMinecraft();
-    private KeyBinding keyTimeChange = new KeyBinding("Open GUI", 25, "Time Changer");
+    public KeyBinding keyTimeChange = new KeyBinding("Open GUI", 25, "Time Changer");
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
@@ -59,15 +53,8 @@ public class TimeChanger {
     @SubscribeEvent
     public void onClientTick(ClientTickEvent event) {
         if (this.mc.theWorld != null) {
-            INetHandler parent = this.mc.thePlayer.sendQueue.getNetworkManager().getNetHandler();
-            if (!(parent instanceof TimeChangerNetHandler)) {
-                this.mc.thePlayer.sendQueue.getNetworkManager().setNetHandler(new TimeChangerNetHandler((NetHandlerPlayClient)parent));
-            }
-
             if (fastTime) {
-                this.mc.theWorld.setWorldTime((long)((double)System.currentTimeMillis() * fastTimeMultiplier % 24000.0D));
-            } else if (smoothUpdate) {
-                this.mc.theWorld.setWorldTime(time);
+                this.setTime((int)((double)System.currentTimeMillis() * fastTimeMultiplier % 24000.0D));
             }
         }
 
@@ -79,7 +66,6 @@ public class TimeChanger {
         if (Keyboard.getEventKeyState() && Keyboard.getEventKey() == code) {
             fastTime = false;
             mc.displayGuiScreen(new GuiTimeChanger(this));
-
         }
     }
 
