@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-FMLCorePlugin: ${mod_group}.${mod_id}.core.CoreMod
-FMLCorePluginContainsFMLMod: true
-ForceLoadAsMod: true
-TweakClass: org.spongepowered.asm.launch.MixinTweaker
 TweakOrder: 0
 MixinConfigs: mixins.timechanger.json
+FMLCorePluginContainsFMLMod: true
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: ${mod_group}.${mod_id}.core.CoreMod
 

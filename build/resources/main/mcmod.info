@@ -2,8 +2,8 @@
 {
   "modid": "timechanger",
   "name": "TimeChanger",
-  "description": "A example mod",
-  "version": "2.2",
+  "description": "A revamped version of 2PI's TimeChanger mod.",
+  "version": "2.2.1",
   "mcversion": "1.8.9",
   "url": "",
   "updateUrl": "",

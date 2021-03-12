@@ -33388,8 +33388,512 @@ RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraf
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/WorldSettings;Ljava/lang/String;)V 1 -> p_i2158_2_
 RENAME MAP: param net/minecraft/world/storage/WorldInfo/WorldInfo (Lnet/minecraft/world/storage/WorldInfo;)V 0 -> p_i2159_1_
 Start Processing: net/shatterpoint/timechanger/TimeChanger.java
+Rename class net/minecraft/client/Minecraft[1417,1426]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[1432,1441]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1442,1454]::getMinecraft->func_71410_x
+Rename class net/minecraft/client/settings/KeyBinding[1469,1479]::KeyBinding->KeyBinding
+Rename class net/minecraft/client/settings/KeyBinding[1500,1510]::KeyBinding->KeyBinding
+[method, net/shatterpoint/timechanger/TimeChanger/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
+No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
+Rename field net/minecraft/client/Minecraft/mcDataDir[1660,1669]::mcDataDir->field_71412_D
+No rename for class net/minecraftforge/fml/client/registry/ClientRegistry
+[method, net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding, (Lnet/minecraft/client/settings/KeyBinding;)V]
+No rename for method net/minecraftforge/fml/client/registry/ClientRegistry/registerKeyBinding (Lnet/minecraft/client/settings/KeyBinding;)V
+[method, net/shatterpoint/timechanger/TimeChanger/loadSettings, ()V]
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[1850,1865]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[1924,1939]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[2000,2015]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[2077,2092]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[2157,2172]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/client/ClientCommandHandler
+No rename for field net/minecraftforge/client/ClientCommandHandler/instance
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[2236,2251]::registerCommand->func_71560_a
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
+[method, net/shatterpoint/timechanger/TimeChanger/onClientTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ClientTickEvent
+Rename field net/minecraft/client/Minecraft/theWorld[2429,2437]::theWorld->field_71441_e
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+[method, java/lang/System/currentTimeMillis, ()J]
+[method, net/shatterpoint/timechanger/TimeChanger/onKeyInput, (Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/InputEvent/KeyInputEvent
+Rename method net/minecraft/client/settings/KeyBinding/getKeyCode ()I[2727,2737]::getKeyCode->func_151463_i
+[method, org/lwjgl/input/Keyboard/getEventKeyState, ()Z]
+[method, org/lwjgl/input/Keyboard/getEventKey, ()I]
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[2866,2882]::displayGuiScreen->func_147108_a
+[method, net/shatterpoint/timechanger/TimeChanger/onMouseInput, (Lnet/minecraftforge/fml/common/gameevent/InputEvent$MouseInputEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/InputEvent/MouseInputEvent
+Rename method net/minecraft/client/settings/KeyBinding/getKeyCode ()I[3036,3046]::getKeyCode->func_151463_i
+[method, org/lwjgl/input/Mouse/getEventButtonState, ()Z]
+[method, org/lwjgl/input/Mouse/getEventButton, ()I]
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[3181,3197]::displayGuiScreen->func_147108_a
+[method, net/shatterpoint/timechanger/TimeChanger/getGuiTime, ()I]
+Rename field net/minecraft/client/Minecraft/theWorld[3333,3341]::theWorld->field_71441_e
+Rename method net/minecraft/world/World/getWorldTime ()J[3347,3359]::getWorldTime->func_72820_D
+[method, net/shatterpoint/timechanger/TimeChanger/getTime, ()I]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for class net/minecraftforge/common/config/Configuration
+[method, net/shatterpoint/timechanger/TimeChanger/updateSettings, (Lnet/minecraftforge/common/config/Configuration;Z)V]
+[method, net/minecraftforge/common/config/Configuration/save, ()V]
+No rename for method net/minecraftforge/common/config/Configuration/save ()V
+[method, net/shatterpoint/timechanger/TimeChanger/loadSettings, ()V]
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for class net/minecraftforge/common/config/Configuration
+[method, net/minecraftforge/common/config/Configuration/load, ()V]
+No rename for method net/minecraftforge/common/config/Configuration/load ()V
+[method, net/shatterpoint/timechanger/TimeChanger/updateSettings, (Lnet/minecraftforge/common/config/Configuration;Z)V]
+[method, net/shatterpoint/timechanger/TimeChanger/updateSettings, (Lnet/minecraftforge/common/config/Configuration;Z)V]
+No rename for class net/minecraftforge/common/config/Configuration
+No rename for class net/minecraftforge/common/config/Property
+[method, net/minecraftforge/common/config/Configuration/get, (Ljava/lang/String;Ljava/lang/String;I)Lnet/minecraftforge/common/config/Property;]
+No rename for method net/minecraftforge/common/config/Configuration/get (Ljava/lang/String;Ljava/lang/String;I)Lnet/minecraftforge/common/config/Property;
+[method, net/minecraftforge/common/config/Property/set, (I)V]
+No rename for method net/minecraftforge/common/config/Property/set (I)V
+[method, net/minecraftforge/common/config/Property/getInt, ()I]
+No rename for method net/minecraftforge/common/config/Property/getInt ()I
+[method, net/minecraftforge/common/config/Configuration/get, (Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraftforge/common/config/Property;]
+No rename for method net/minecraftforge/common/config/Configuration/get (Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraftforge/common/config/Property;
+[method, net/minecraftforge/common/config/Property/set, (Z)V]
+No rename for method net/minecraftforge/common/config/Property/set (Z)V
+[method, net/minecraftforge/common/config/Property/getBoolean, ()Z]
+No rename for method net/minecraftforge/common/config/Property/getBoolean ()Z
+[method, net/minecraftforge/common/config/Configuration/get, (Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraftforge/common/config/Property;]
+No rename for method net/minecraftforge/common/config/Configuration/get (Ljava/lang/String;Ljava/lang/String;Z)Lnet/minecraftforge/common/config/Property;
+[method, net/minecraftforge/common/config/Property/set, (Z)V]
+No rename for method net/minecraftforge/common/config/Property/set (Z)V
+[method, net/minecraftforge/common/config/Property/getBoolean, ()Z]
+No rename for method net/minecraftforge/common/config/Property/getBoolean ()Z
+[method, net/minecraftforge/common/config/Configuration/get, (Ljava/lang/String;Ljava/lang/String;D)Lnet/minecraftforge/common/config/Property;]
+No rename for method net/minecraftforge/common/config/Configuration/get (Ljava/lang/String;Ljava/lang/String;D)Lnet/minecraftforge/common/config/Property;
+[method, net/minecraftforge/common/config/Property/set, (D)V]
+No rename for method net/minecraftforge/common/config/Property/set (D)V
+[method, net/minecraftforge/common/config/Property/getDouble, ()D]
+No rename for method net/minecraftforge/common/config/Property/getDouble ()D
 Import: net.minecraft.client.Minecraft
 Import: net.minecraft.client.settings.KeyBinding
 Adding 0 imports
 End  Processing: net/shatterpoint/timechanger/TimeChanger.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandDay.java
+Rename class net/minecraft/client/Minecraft[439,448]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[454,463]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[464,476]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandDay/CommandDay, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandDay/CommandDay (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandDay
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[571,585]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[635,650]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[648,662]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[719,733]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[732,746]::ICommandSender->ICommandSender
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[896,910]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[915,932]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[954,966]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[973,982]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[986,994]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1000,1018]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1019,1024]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1084,1110]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[1145,1171]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1158,1172]::ICommandSender->ICommandSender
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandDay.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandFastTime.java
+Rename class net/minecraft/client/Minecraft[465,474]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[480,489]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[490,502]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandFastTime/CommandFastTime, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandFastTime/CommandFastTime (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandFastTime
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[623,637]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[692,707]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[705,719]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[794,808]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[807,821]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[898,912]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[917,934]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[974,986]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[993,1002]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1006,1014]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1020,1038]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/RED[1039,1042]::RED->RED
+[method, org/apache/commons/lang3/math/NumberUtils/toDouble, (Ljava/lang/String;D)D]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1194,1208]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1213,1230]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1255,1267]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[1274,1283]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1287,1295]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1301,1319]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/RED[1320,1323]::RED->RED
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1525,1539]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1544,1561]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1605,1617]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[1624,1633]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1637,1645]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1651,1669]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1670,1675]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1767,1793]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[1828,1854]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1841,1855]::ICommandSender->ICommandSender
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandFastTime.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandNight.java
+Rename class net/minecraft/client/Minecraft[412,421]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[427,436]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[437,449]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandNight/CommandNight, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandNight/CommandNight (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandNight
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[574,588]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[640,655]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[653,667]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[726,740]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[739,753]::ICommandSender->ICommandSender
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[904,918]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[923,940]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[964,976]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[983,992]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[996,1004]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1010,1028]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1029,1034]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1094,1120]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[1155,1181]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1168,1182]::ICommandSender->ICommandSender
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandNight.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandResetTime.java
+Rename class net/minecraft/client/Minecraft[416,425]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[431,440]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[441,453]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandResetTime/CommandResetTime, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandResetTime/CommandResetTime (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandResetTime
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[583,597]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[653,668]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[666,680]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[743,757]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[756,770]::ICommandSender->ICommandSender
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[918,932]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[937,954]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[983,995]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[1002,1011]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1015,1023]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1029,1047]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1048,1053]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1113,1139]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[1174,1200]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1187,1201]::ICommandSender->ICommandSender
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandResetTime.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandSunset.java
+Rename class net/minecraft/client/Minecraft[413,422]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[428,437]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[438,450]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandSunset/CommandSunset, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandSunset/CommandSunset (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandSunset
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[577,591]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[644,659]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[657,671]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[731,745]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[744,758]::ICommandSender->ICommandSender
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[909,923]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[928,945]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[970,982]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[989,998]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1002,1010]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1016,1034]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1035,1040]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1100,1126]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[1161,1187]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[1174,1188]::ICommandSender->ICommandSender
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandSunset.java
+
+Start Processing: net/shatterpoint/timechanger/commands/CommandTimeChange.java
+Rename class net/minecraft/client/Minecraft[698,707]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[713,722]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[723,735]::getMinecraft->func_71410_x
+[method, net/shatterpoint/timechanger/commands/CommandTimeChange/CommandTimeChange, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/commands/CommandTimeChange/CommandTimeChange (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/commands/CommandTimeChange
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[865,879]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[934,951]::getCommandAliases->func_71514_a
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1067,1082]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[1080,1094]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1165,1179]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[1178,1192]::ICommandSender->ICommandSender
+[method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1460,1474]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1479,1496]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1518,1530]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[1537,1546]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1550,1558]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1564,1582]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1583,1588]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+[method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[1856,1870]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[1875,1892]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[1917,1929]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[1936,1945]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[1949,1957]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[1963,1981]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[1982,1987]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+[method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[2254,2268]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[2273,2290]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[2314,2326]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[2333,2342]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[2346,2354]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[2360,2378]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[2379,2384]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+[method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
+[method, java/lang/String/equals, (Ljava/lang/Object;)Z]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[2649,2663]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[2668,2685]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[2714,2726]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[2733,2742]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[2746,2754]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[2760,2778]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[2779,2784]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+[method, java/lang/Integer/parseInt, (Ljava/lang/String;)I]
+[method, java/lang/Integer/parseInt, (Ljava/lang/String;)I]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+[method, java/lang/Integer/parseInt, (Ljava/lang/String;)I]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[3173,3187]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[3192,3209]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[3243,3255]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[3262,3271]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[3275,3283]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[3289,3307]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/GREEN[3308,3313]::GREEN->GREEN
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[3427,3441]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[3446,3463]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[3499,3511]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[3518,3527]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[3531,3539]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[3545,3563]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/RED[3564,3567]::RED->RED
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[3661,3675]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[3680,3697]::ChatComponentText->ChatComponentText
+Rename method net/minecraft/util/IChatComponent/setChatStyle (Lnet/minecraft/util/ChatStyle;)Lnet/minecraft/util/IChatComponent;[3745,3757]::setChatStyle->func_150255_a
+Rename class net/minecraft/util/ChatStyle[3764,3773]::ChatStyle->ChatStyle
+Rename method net/minecraft/util/ChatStyle/setColor (Lnet/minecraft/util/EnumChatFormatting;)Lnet/minecraft/util/ChatStyle;[3777,3785]::setColor->func_150238_a
+Rename class net/minecraft/util/EnumChatFormatting[3791,3809]::EnumChatFormatting->EnumChatFormatting
+Rename field net/minecraft/util/EnumChatFormatting/RED[3810,3813]::RED->RED
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[3952,3978]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[4013,4039]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[4026,4040]::ICommandSender->ICommandSender
+[method, net/shatterpoint/timechanger/commands/CommandTimeChange/onTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V]
+No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/ClientTickEvent
+No rename for class net/minecraftforge/common/MinecraftForge
+No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
+[method, net/minecraftforge/fml/common/eventhandler/EventBus/unregister, (Ljava/lang/Object;)V]
+No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/unregister (Ljava/lang/Object;)V
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[4224,4240]::displayGuiScreen->func_147108_a
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.util.ChatComponentText
+Import: net.minecraft.util.ChatStyle
+Import: net.minecraft.util.EnumChatFormatting
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/commands/CommandTimeChange.java
+
+Start Processing: net/shatterpoint/timechanger/core/CoreMod.java
+[method, net/shatterpoint/timechanger/core/CoreMod/CoreMod, ()V]
+FOUND CONSTR method net/shatterpoint/timechanger/core/CoreMod/CoreMod ()V net/shatterpoint/timechanger/core/CoreMod
+[method, org/spongepowered/asm/launch/MixinBootstrap/init, ()V]
+[method, java/lang/Object/getClass, ()Ljava/lang/Class;]
+[method, java/lang/Class/getProtectionDomain, ()Ljava/security/ProtectionDomain;]
+[method, java/security/ProtectionDomain/getCodeSource, ()Ljava/security/CodeSource;]
+[method, java/security/CodeSource/getLocation, ()Ljava/net/URL;]
+[method, java/net/URL/toURI, ()Ljava/net/URI;]
+[method, java/io/File/isFile, ()Z]
+No rename for class net/minecraftforge/fml/relauncher/CoreModManager
+[method, net/minecraftforge/fml/relauncher/CoreModManager/getReparseableCoremods, ()Ljava/util/List;]
+No rename for method net/minecraftforge/fml/relauncher/CoreModManager/getReparseableCoremods ()Ljava/util/List;
+[method, java/util/Collection/remove, (Ljava/lang/Object;)Z]
+[method, java/io/File/getName, ()Ljava/lang/String;]
+[method, org/apache/logging/log4j/LogManager/getLogger, ()Lorg/apache/logging/log4j/Logger;]
+[method, org/apache/logging/log4j/Logger/warn, (Ljava/lang/String;)V]
+[method, org/apache/logging/log4j/LogManager/getLogger, ()Lorg/apache/logging/log4j/Logger;]
+[method, org/apache/logging/log4j/Logger/warn, (Ljava/lang/Object;)V]
+[method, java/lang/Object/getClass, ()Ljava/lang/Class;]
+[method, java/lang/Class/getProtectionDomain, ()Ljava/security/ProtectionDomain;]
+[method, net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getASMTransformerClass, ()[Ljava/lang/String;]
+No rename for method net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getASMTransformerClass ()[Ljava/lang/String;
+[method, net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getModContainerClass, ()Ljava/lang/String;]
+No rename for method net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getModContainerClass ()Ljava/lang/String;
+[method, net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getSetupClass, ()Ljava/lang/String;]
+No rename for method net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getSetupClass ()Ljava/lang/String;
+[method, net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/injectData, (Ljava/util/Map;)V]
+No rename for method net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/injectData (Ljava/util/Map;)V
+[method, net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getAccessTransformerClass, ()Ljava/lang/String;]
+No rename for method net/minecraftforge/fml/relauncher/IFMLLoadingPlugin/getAccessTransformerClass ()Ljava/lang/String;
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/core/CoreMod.java
+
+Start Processing: net/shatterpoint/timechanger/gui/GuiSlider.java
+[method, net/shatterpoint/timechanger/gui/GuiSlider/GuiSlider, (IIIIILjava/lang/String;Ljava/lang/String;DDDZZLnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/gui/GuiSlider/GuiSlider (IIIIILjava/lang/String;Ljava/lang/String;DDDZZLnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/gui/GuiSlider
+[method, net/shatterpoint/timechanger/gui/GuiSlider/GuiSlider, (IIIIILjava/lang/String;Ljava/lang/String;DDDZZLnet/shatterpoint/timechanger/TimeChanger;Lnet/shatterpoint/timechanger/gui/GuiSlider_ISlider;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/gui/GuiSlider/GuiSlider (IIIIILjava/lang/String;Ljava/lang/String;DDDZZLnet/shatterpoint/timechanger/TimeChanger;Lnet/shatterpoint/timechanger/gui/GuiSlider_ISlider;)V net/shatterpoint/timechanger/gui/GuiSlider
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getStringTime, (I)Ljava/lang/String;]
+[method, java/lang/Math/round, (D)J]
+Rename field net/minecraft/client/gui/GuiButton/displayString[1934,1947]::displayString->field_146126_j
+Rename field net/minecraft/client/gui/GuiButton/displayString[2072,2085]::displayString->field_146126_j
+Rename method net/minecraft/client/gui/GuiButton/getHoverState (Z)I[2126,2139]::getHoverState->func_146114_a
+Rename method net/minecraft/client/gui/GuiButton/mouseDragged (Lnet/minecraft/client/Minecraft;II)V[2200,2212]::mouseDragged->func_146119_b
+Rename class net/minecraft/client/Minecraft[2214,2223]::Minecraft->Minecraft
+Rename field net/minecraft/client/gui/GuiButton/visible[2278,2285]::visible->field_146125_m
+Rename field net/minecraft/client/gui/GuiButton/xPosition[2394,2403]::xPosition->field_146128_h
+Rename field net/minecraft/client/gui/GuiButton/width[2430,2435]::width->field_146120_f
+[method, net/shatterpoint/timechanger/gui/GuiSlider/updateSlider, ()V]
+[method, org/lwjgl/opengl/GL11/glColor4f, (FFFF)V]
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2573,2594]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/GuiButton/xPosition[2591,2600]::xPosition->field_146128_h
+Rename field net/minecraft/client/gui/GuiButton/width[2655,2660]::width->field_146120_f
+Rename field net/minecraft/client/gui/GuiButton/yPosition[2683,2692]::yPosition->field_146129_i
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2731,2752]::drawTexturedModalRect->func_73729_b
+Rename field net/minecraft/client/gui/GuiButton/xPosition[2749,2758]::xPosition->field_146128_h
+Rename field net/minecraft/client/gui/GuiButton/width[2813,2818]::width->field_146120_f
+Rename field net/minecraft/client/gui/GuiButton/yPosition[2845,2854]::yPosition->field_146129_i
+Rename method net/minecraft/client/gui/GuiButton/mousePressed (Lnet/minecraft/client/Minecraft;II)Z[2915,2927]::mousePressed->func_146116_c
+Rename class net/minecraft/client/Minecraft[2929,2938]::Minecraft->Minecraft
+Rename method net/minecraft/client/gui/GuiButton/mousePressed (Lnet/minecraft/client/Minecraft;II)Z[2994,3006]::mousePressed->func_146116_c
+Rename field net/minecraft/client/gui/GuiButton/xPosition[3099,3108]::xPosition->field_146128_h
+Rename field net/minecraft/client/gui/GuiButton/width[3135,3140]::width->field_146120_f
+[method, net/shatterpoint/timechanger/gui/GuiSlider/updateSlider, ()V]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/updateSlider, ()V]
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getValueInt, ()I]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getStringTime, (I)Ljava/lang/String;]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getValueInt, ()I]
+Rename field net/minecraft/client/gui/GuiButton/displayString[3655,3668]::displayString->field_146126_j
+[method, net/shatterpoint/timechanger/gui/GuiSlider_ISlider/onChangeSliderValue, (Lnet/shatterpoint/timechanger/gui/GuiSlider;)V]
+Rename method net/minecraft/client/gui/GuiButton/mouseReleased (II)V[3840,3853]::mouseReleased->func_146118_a
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getValueInt, ()I]
+[method, java/lang/Math/round, (D)J]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getStringTime, (I)Ljava/lang/String;]
+Import: net.minecraft.client.Minecraft
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/gui/GuiSlider.java
+
+Start Processing: net/shatterpoint/timechanger/gui/GuiSlider_ISlider.java
+[method, net/shatterpoint/timechanger/gui/GuiSlider_ISlider/onChangeSliderValue, (Lnet/shatterpoint/timechanger/gui/GuiSlider;)V]
+End  Processing: net/shatterpoint/timechanger/gui/GuiSlider_ISlider.java
+
+Start Processing: net/shatterpoint/timechanger/gui/GuiTimeChanger.java
+[method, net/shatterpoint/timechanger/gui/GuiTimeChanger/GuiTimeChanger, (Lnet/shatterpoint/timechanger/TimeChanger;)V]
+FOUND CONSTR method net/shatterpoint/timechanger/gui/GuiTimeChanger/GuiTimeChanger (Lnet/shatterpoint/timechanger/TimeChanger;)V net/shatterpoint/timechanger/gui/GuiTimeChanger
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[334,341]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[366,373]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[396,406]::buttonList->field_146292_n
+[method, java/util/Collection/add, (Ljava/lang/Object;)Z]
+Rename field net/minecraft/client/gui/GuiScreen/width[437,442]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[468,474]::height->field_146295_m
+[method, net/shatterpoint/timechanger/TimeChanger/getGuiTime, ()I]
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[601,611]::drawScreen->func_73863_a
+Rename field net/minecraft/client/gui/GuiScreen/width[682,687]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[724,730]::height->field_146295_m
+Rename method net/minecraft/client/gui/Gui/drawCenteredString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[758,776]::drawCenteredString->func_73732_a
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[777,792]::fontRendererObj->field_146289_q
+Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[828,843]::fontRendererObj->field_146289_q
+Rename field net/minecraft/client/gui/FontRenderer/FONT_HEIGHT[843,854]::FONT_HEIGHT->field_78288_b
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[887,897]::drawScreen->func_73863_a
+[method, net/shatterpoint/timechanger/TimeChanger/setTime, (I)V]
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[973,983]::buttonList->field_146292_n
+[method, java/util/List/get, (I)Ljava/lang/Object;]
+[method, net/shatterpoint/timechanger/gui/GuiSlider/getValueInt, ()I]
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[1038,1054]::doesGuiPauseGame->func_73868_f
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[1104,1115]::onGuiClosed->func_146281_b
+[method, net/shatterpoint/timechanger/TimeChanger/saveSettings, ()V]
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[1195,1203]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[1272,1280]::keyTyped->func_73869_a
+Rename method net/minecraft/client/settings/KeyBinding/getKeyCode ()I[1352,1362]::getKeyCode->func_151463_i
+Rename field net/minecraft/client/gui/GuiScreen/mc[1388,1390]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/displayGuiScreen (Lnet/minecraft/client/gui/GuiScreen;)V[1403,1419]::displayGuiScreen->func_147108_a
+Rename field net/minecraft/client/gui/GuiScreen/mc[1446,1448]::mc->field_146297_k
+Rename field net/minecraft/client/Minecraft/currentScreen[1461,1474]::currentScreen->field_71462_r
+Rename field net/minecraft/client/gui/GuiScreen/mc[1519,1521]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/setIngameFocus ()V[1534,1548]::setIngameFocus->func_71381_h
+Import: net.minecraft.client.gui.GuiScreen
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/gui/GuiTimeChanger.java
+
+Start Processing: net/shatterpoint/timechanger/mixin/MixinWorldInfo.java
+[method, net/shatterpoint/timechanger/mixin/MixinWorldInfo/getWorldTime, ()J]
+[method, net/shatterpoint/timechanger/TimeChanger/getTime, ()I]
+Import: net.minecraft.world.storage.WorldInfo
+Adding 0 imports
+End  Processing: net/shatterpoint/timechanger/mixin/MixinWorldInfo.java
 

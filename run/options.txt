@@ -90,7 +90,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Open GUI:25
+key_Open TC GUI:25
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

@@ -34,7 +34,7 @@ public class TimeChanger {
     public static boolean isVanilla = true;
     private File saveFile;
     private Minecraft mc = Minecraft.getMinecraft();
-    public KeyBinding keyTimeChange = new KeyBinding("Open GUI", 25, "Time Changer");
+    public KeyBinding keyTimeChange = new KeyBinding("Open TC GUI", 25, "Time Changer");
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
