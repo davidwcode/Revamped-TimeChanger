@@ -1,6 +1,3 @@
-# Revamped-TimeChanger
-An improved version of 2PI's TimeChanger mod for 1.8.9
-
 # Maintained Features
 Old features from original mod:
 
