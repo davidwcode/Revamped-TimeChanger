@@ -12,11 +12,13 @@ Old features from original mod:
 
 "/resettime" resets the time to vanilla
 
+"/irltime" enable irl time in Minecraft
+
 # New Features:
 
 # Command:
 "/timechange [args]" ("/tc" as alias)
-  - possible args: day, night, sunset, [integer between 0-24000]
+  - possible args: day, night, sunset, irl, [integer between 0-24000]
     - sets the time to the provided value
 
   - no args: opens GUI
