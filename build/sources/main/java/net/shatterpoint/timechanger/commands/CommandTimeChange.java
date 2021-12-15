@@ -12,12 +12,14 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.shatterpoint.timechanger.TimeChanger;
 import net.shatterpoint.timechanger.gui.GuiTimeChanger;
 
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 
 public class CommandTimeChange extends CommandBase {
-    private Minecraft mc = Minecraft.getMinecraft();
-    private TimeChanger mod;
+    private final Minecraft mc = Minecraft.getMinecraft();
+    private final TimeChanger mod;
+
     public CommandTimeChange(TimeChanger mod) {
         this.mod = mod;
     }
@@ -26,8 +28,8 @@ public class CommandTimeChange extends CommandBase {
         return "timechange";
     }
 
-    public List getCommandAliases() {
-        List aliases = new ArrayList();
+    public List<String> getCommandAliases() {
+        List<String> aliases = new ArrayList<>();
         aliases.add("tc");
         return aliases;
     }
@@ -38,44 +40,63 @@ public class CommandTimeChange extends CommandBase {
 
     public void processCommand(ICommandSender sender, String[] args) {
         if (args.length > 0) {
-            if (args[0].toLowerCase().equals("day")) {
-                this.mod.setTime(6000);
-                TimeChanger.fastTime = false;
-                TimeChanger.isVanilla = false;
-                sender.addChatMessage((new ChatComponentText("Time set to day.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
-                this.mod.saveSettings();
-            } else if (args[0].toLowerCase().equals("sunset")) {
-                this.mod.setTime(13000);
-                TimeChanger.fastTime = false;
-                TimeChanger.isVanilla = false;
-                sender.addChatMessage((new ChatComponentText("Time set to sunset.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
-                this.mod.saveSettings();
-            } else if (args[0].toLowerCase().equals("night")) {
-                this.mod.setTime(18000);
-                TimeChanger.fastTime = false;
-                TimeChanger.isVanilla = false;
-                sender.addChatMessage((new ChatComponentText("Time set to night.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
-                this.mod.saveSettings();
-            } else if (args[0].toLowerCase().equals("vanilla")) {
-                this.mod.setTime(-1);
-                TimeChanger.fastTime = false;
-                TimeChanger.isVanilla = true;
-                sender.addChatMessage((new ChatComponentText("Now using vanilla time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
-                this.mod.saveSettings();
-            } else {
-                try {
-                    if (Integer.parseInt(args[0]) >= 0 && Integer.parseInt(args[0]) <= 24000) {
-                        mod.setTime(Integer.parseInt(args[0]));
-                        TimeChanger.fastTime = false;
-                        TimeChanger.isVanilla = false;
-                        sender.addChatMessage((new ChatComponentText("Time set to " + args[0] + ".")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
-                        this.mod.saveSettings();
-                    } else {
-                        sender.addChatMessage((new ChatComponentText("Time must be between 0 - 24000")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.RED)));
+            switch (args[0].toLowerCase()) {
+                case "day":
+                    this.mod.setTime(6000);
+                    TimeChanger.fastTime = false;
+                    TimeChanger.isVanilla = false;
+                    TimeChanger.isIRLTime = false;
+                    sender.addChatMessage((new ChatComponentText("Time set to day.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                    this.mod.saveSettings();
+                    break;
+                case "sunset":
+                    this.mod.setTime(13000);
+                    TimeChanger.fastTime = false;
+                    TimeChanger.isVanilla = false;
+                    TimeChanger.isIRLTime = false;
+                    sender.addChatMessage((new ChatComponentText("Time set to sunset.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                    this.mod.saveSettings();
+                    break;
+                case "night":
+                    this.mod.setTime(18000);
+                    TimeChanger.fastTime = false;
+                    TimeChanger.isVanilla = false;
+                    TimeChanger.isIRLTime = false;
+                    sender.addChatMessage((new ChatComponentText("Time set to night.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                    this.mod.saveSettings();
+                    break;
+                case "vanilla":
+                    this.mod.setTime(-1);
+                    TimeChanger.fastTime = false;
+                    TimeChanger.isVanilla = true;
+                    TimeChanger.isIRLTime = false;
+                    sender.addChatMessage((new ChatComponentText("Now using vanilla time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                    this.mod.saveSettings();
+                    break;
+                case "irl":
+                    this.mod.setTime(-1);
+                    TimeChanger.fastTime = false;
+                    TimeChanger.isVanilla = false;
+                    TimeChanger.isIRLTime = true;
+                    sender.addChatMessage((new ChatComponentText("Now using irl time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                    this.mod.saveSettings();
+                    break;
+                default:
+                    try {
+                        if (Integer.parseInt(args[0]) >= 0 && Integer.parseInt(args[0]) <= 24000) {
+                            mod.setTime(Integer.parseInt(args[0]));
+                            TimeChanger.fastTime = false;
+                            TimeChanger.isVanilla = false;
+                            TimeChanger.isIRLTime = false;
+                            sender.addChatMessage((new ChatComponentText("Time set to " + args[0] + ".")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
+                            this.mod.saveSettings();
+                        } else {
+                            sender.addChatMessage((new ChatComponentText("Time must be between 0 - 24000")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.RED)));
+                        }
+                    } catch (Exception e) {
+                        sender.addChatMessage((new ChatComponentText("Usage: /timechange day/sunset/night/<TIME>")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.RED)));
                     }
-                } catch (Exception e) {
-                    sender.addChatMessage((new ChatComponentText("Usage: /timechange day/sunset/night/<TIME>")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.RED)));
-                }
+                    break;
             }
         } else {
             MinecraftForge.EVENT_BUS.register(this);

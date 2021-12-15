@@ -26,8 +26,9 @@ public class CommandResetTime extends CommandBase {
 
     public void processCommand(ICommandSender sender, String[] args) {
         TimeChanger.fastTime = false;
-        this.mod.setTime(-1);;
+        this.mod.setTime(-1);
         TimeChanger.isVanilla = true;
+        TimeChanger.isIRLTime = false;
         sender.addChatMessage((new ChatComponentText("Now using vanilla time.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
         this.mod.saveSettings();
     }

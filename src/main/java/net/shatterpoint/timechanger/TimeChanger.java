@@ -20,6 +20,8 @@ import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 
 import java.io.File;
+import java.util.Calendar;
+import java.util.Date;
 
 @Mod(
         name = "TimeChanger",
@@ -32,8 +34,9 @@ public class TimeChanger {
     public static double fastTimeMultiplier = 1.0D;
     private static int time = 0;
     public static boolean isVanilla = true;
+    public static boolean isIRLTime = false;
     private File saveFile;
-    private Minecraft mc = Minecraft.getMinecraft();
+    private final Minecraft mc = Minecraft.getMinecraft();
     public KeyBinding keyTimeChange = new KeyBinding("Open TC GUI", 25, "Time Changer");
 
     @EventHandler
@@ -47,6 +50,7 @@ public class TimeChanger {
         ClientCommandHandler.instance.registerCommand(new CommandResetTime(this));
         ClientCommandHandler.instance.registerCommand(new CommandFastTime(this));
         ClientCommandHandler.instance.registerCommand(new CommandTimeChange(this));
+        ClientCommandHandler.instance.registerCommand(new CommandIrlTime(this));
         MinecraftForge.EVENT_BUS.register(this);
     }
 
@@ -54,7 +58,7 @@ public class TimeChanger {
     public void onClientTick(ClientTickEvent event) {
         if (this.mc.theWorld != null) {
             if (fastTime) {
-                this.setTime((int)((double)System.currentTimeMillis() * fastTimeMultiplier % 24000.0D));
+                this.setTime((int) ((double) System.currentTimeMillis() * fastTimeMultiplier % 24000.0D));
             }
         }
 
@@ -80,23 +84,27 @@ public class TimeChanger {
 
 
     public int getGuiTime() {
-        if (this.isVanilla) {
-            this.time = (int)(mc.theWorld.getWorldTime() % 24000);
+        if (isVanilla) {
+            time = (int) (mc.theWorld.getWorldTime() % 24000);
             isVanilla = false;
 
         }
-        if (this.time < 18000) {
-            this.time += 24000;
+        if (time < 18000) {
+            time += 24000;
         }
-        return this.time;
+        return time;
     }
 
     public static int getTime() {
+        if (TimeChanger.isIRLTime) {
+            Date currentDate = new Date();
+            return (int) ((currentDate.getHours() * 1000) + (currentDate.getMinutes() * (1000f / 60f)) + (currentDate.getSeconds() * (1000f / 60f / 60f)) - 6000);
+        }
         return time;
     }
 
     public void setTime(int time) {
-        this.time = time % 24000;
+        TimeChanger.time = time % 24000;
     }
 
     public void saveSettings() {
@@ -114,33 +122,38 @@ public class TimeChanger {
     private void updateSettings(Configuration config, boolean save) {
         Property prop = config.get("TimeChanger", "time", 0);
         if (save) {
-            prop.set(this.time);
+            prop.set(time);
         } else {
-            this.time = prop.getInt();
+            time = prop.getInt();
         }
 
         prop = config.get("TimeChanger", "isVanilla", true);
         if (save) {
-            prop.set(this.isVanilla);
+            prop.set(isVanilla);
         } else {
-            this.isVanilla = prop.getBoolean();
+            isVanilla = prop.getBoolean();
         }
 
         prop = config.get("TimeChanger", "fastTime", false);
         if (save) {
-            prop.set(this.fastTime);
+            prop.set(fastTime);
         } else {
-            this.fastTime = prop.getBoolean();
+            fastTime = prop.getBoolean();
         }
 
         prop = config.get("TimeChanger", "fastTimeMultiplier", 1.0D);
         if (save) {
-            prop.set(this.fastTimeMultiplier);
+            prop.set(fastTimeMultiplier);
         } else {
-            this.fastTimeMultiplier = prop.getDouble();
+            fastTimeMultiplier = prop.getDouble();
         }
 
-
+        prop = config.get("TimeChanger", "isIRLTime", false);
+        if (save) {
+            prop.set(isIRLTime);
+        } else {
+            isIRLTime = prop.getBoolean();
+        }
     }
 
 }

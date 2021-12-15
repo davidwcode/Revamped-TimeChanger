@@ -27,6 +27,7 @@ public class CommandNight extends CommandBase {
         TimeChanger.fastTime = false;
         this.mod.setTime(18000);
         TimeChanger.isVanilla = false;
+        TimeChanger.isIRLTime = false;
         sender.addChatMessage((new ChatComponentText("Time set to night.")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
         this.mod.saveSettings();
     }

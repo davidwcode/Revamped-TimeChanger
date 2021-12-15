@@ -35,6 +35,7 @@ public class CommandFastTime extends CommandBase {
             } else {
                 TimeChanger.fastTime = true;
                 TimeChanger.isVanilla = false;
+                TimeChanger.isIRLTime = false;
                 TimeChanger.fastTimeMultiplier = multiplier;
                 sender.addChatMessage((new ChatComponentText("Time set to fast (" + multiplier + ").")).setChatStyle((new ChatStyle()).setColor(EnumChatFormatting.GREEN)));
                 this.mod.saveSettings();
