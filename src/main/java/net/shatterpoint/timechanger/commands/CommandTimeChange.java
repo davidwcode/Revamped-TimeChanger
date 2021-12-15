@@ -12,7 +12,6 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.shatterpoint.timechanger.TimeChanger;
 import net.shatterpoint.timechanger.gui.GuiTimeChanger;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 
