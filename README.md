@@ -1,3 +1,5 @@
+Author: shatterpointy (old github account, devshatter is the new one)
+
 # Maintained Features
 Old features from original mod:
 
